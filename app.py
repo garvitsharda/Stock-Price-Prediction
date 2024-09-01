@@ -10,8 +10,8 @@ model = load_model(r"C:\Users\garvit\Desktop\Stock-Price-Prediction\Stock Predic
 st.header('Stock Market Predictor')
 
 stock =st.text_input('Enter Stock Symbol', 'GOOG')
-start = '2012-01-01'
-end = '2022-12-31'
+start = '2014-01-01'
+end = '2024-12-31'
 
 data = yf.download(stock, start ,end)
 
