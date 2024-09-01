@@ -1,6 +1,7 @@
 numpy
 pandas
 yfinance
+tensorflow
 keras
 streamlit
 matplotlib
